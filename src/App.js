@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -11,16 +11,8 @@ class App extends Component {
     return (
       <div id="app">
         <h1>juji };</h1>
-        <h2>Hello,</h2>
-        <p>My name is Tri Rahmat Gunadi.<br />
-        But my friends call me <Link to="/contacts">Juji</Link>.<br />
-        I am a web developer.
-        </p> 
-        <div className="menu home">
-          <Link to="/works">Works</Link>
-          <Link to="/technologies">Technologies</Link>
-          <Link to="/contacts">Contacts</Link>
-        </div>
+        <p><big>Site under construction..</big></p> 
+        <p>Contact me anytime: <a href="mailto:him@jujiyangasli.com">him@jujiyangasli.com</a></p>
       </div>
     );
   }
