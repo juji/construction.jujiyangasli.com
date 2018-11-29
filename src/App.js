@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
+
+  componentDidMount(){
+    console.log(this.props);
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div id="app">
+        <h1>juji };</h1>
+        <h2>Hello,</h2>
+        <p>My name is Tri Rahmat Gunadi.<br />
+        But my friends call me <Link to="/contacts">Juji</Link>.<br />
+        I am a web developer.
+        </p> 
+        <div className="menu home">
+          <Link to="/works">Works</Link>
+          <Link to="/technologies">Technologies</Link>
+          <Link to="/contacts">Contacts</Link>
+        </div>
       </div>
     );
   }
