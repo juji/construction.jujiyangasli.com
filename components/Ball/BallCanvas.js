@@ -36,7 +36,6 @@ export default function BallCanvas(){
   useEffect(() => {
 
     const newBall = (e) => {
-      console.log('new Ball')
       thing.current = new Ball({
 
         ...defaultBallConfig,
