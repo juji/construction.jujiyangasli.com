@@ -10,7 +10,7 @@ export default function Home() {
         juji&nbsp;};
       </h1>
 
-      <p><big>Hello, this site is under construction</big></p>
+      <h3>Hello, this site is under construction</h3>
       <p>and i'm feeling lazy..</p>
       <p>Contact me anytime: <a rel="noreferrer noopener"
         target="_blank" href="mailto:dia@jujiyangasli.com">dia@jujiyangasli.com</a></p>
