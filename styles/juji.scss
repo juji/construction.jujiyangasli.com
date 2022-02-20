@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+html, body, #__next{
+  width: 100%;
+  height: 100%;
+}
+
+#juji{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+
+  font-size: 18px;
+  font-family: 'PT Sans';
+
+  a{
+    color: #74b9ff;
+    text-decoration: none;
+    position: relative;
+
+    &:after{
+      position: absolute;
+      bottom: 0;
+      left:0;
+      content:" ";
+      display: inline-block;
+      border-bottom: 1px solid rgba(255,255,255,0.5);
+      width: 100%;
+      height: 1px;
+      transition: transform 200ms ease;
+      transform: scaleX(0);
+      transform-origin: center center;
+    }
+
+    &:hover{
+      &:after{
+        transform: scaleX(1);
+      }
+    }
+
+    &:visited{
+      color: #74b9ff;
+    }
+  }
+
+  p{
+    line-height: 1.68em;
+  }
+
+  big{
+    font-size: 1.2em;
+    line-height: 2.1em;
+  }
+
+  &>canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &>main{
+    width: 100%;
+    height: 100%;
+    padding: 89px;
+    position: relative;
+    top:0;
+    left:0;
+    z-index: 1;
+
+    .logo{
+      font-family: 'Source Serif Pro', serif;
+      font-size: 4em;
+      margin-bottom: 89px;
+    }
+
+
+
+  }
+}
