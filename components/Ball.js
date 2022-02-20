@@ -9,7 +9,7 @@ const defaultBallConfig = {
   gravity: 1,
   friction: 0.99,
   radius: 21,
-  k: 0.8
+  k: 0.9
 
 }
 
