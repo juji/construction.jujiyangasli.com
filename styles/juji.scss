@@ -58,6 +58,11 @@ html, body, #__next{
     margin-bottom: 21px;
   }
 
+  p.lazy{
+    font-size: 0.9em;
+    margin-bottom: 8px;
+  }
+
   &>canvas{
     position: absolute;
     top:0;
