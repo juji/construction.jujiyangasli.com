@@ -12,8 +12,11 @@ export default function Home() {
 
       <h3>Hello, this site is under construction</h3>
       <p className="lazy">and i'm feeling lazy..</p>
-      <p>Contact me anytime: <a rel="noreferrer noopener"
-        target="_blank" href="mailto:dia@jujiyangasli.com">dia@jujiyangasli.com</a></p>
+      { Math.round()<0.5?<p>Contact me anytime: <a rel="noreferrer noopener"
+        target="_blank" href="mailto:dia@jujiyangasli.com">dia@jujiyangasli.com</a></p>:
+        <p>Contact me anytime: <a rel="noreferrer noopener"
+          target="_blank" href="mailto:him@jujiyangasli.com">him@jujiyangasli.com</a></p>}
+
 
       <br />
       <br />
