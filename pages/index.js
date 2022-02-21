@@ -19,7 +19,7 @@ export default function Home() {
       <br />
       <p className="checkout">
         <span className="wez">Meanwhile, checkout <a rel="noreferrer noopener" target="_blank"
-          href="http://wheeleasy.org">WheelEasy</a>,</span> or my&nbsp;
+          href="https://wheeleasy.org">WheelEasy</a>,</span> or my&nbsp;
           <a rel="noreferrer noopener" target="_blank" href="https://jujiplay.com">play</a> site.
       </p>
     </main>
