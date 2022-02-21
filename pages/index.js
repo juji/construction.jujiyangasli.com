@@ -1,4 +1,4 @@
-import { useRef, useMemo } from 'react'
+
 import Ball from 'components/Ball'
 
 export default function Home() {
