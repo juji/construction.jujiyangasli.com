@@ -24,7 +24,7 @@ export default function Home() {
         <span className="wez">Meanwhile, checkout <a rel="noreferrer noopener" target="_blank"
           href="https://wheeleasy.org">WheelEasy</a>, because they're awesome!!</span>
 
-        <br /><br />Or, my&nbsp;
+        <br /><br />Or my&nbsp;
           <a rel="noreferrer noopener" target="_blank" href="https://jujiplay.com">play</a> site.
       </p>
     </main>
